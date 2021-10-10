@@ -97,7 +97,6 @@ text-transform: uppercase;
 }
 
 .text {
-font-weight: 400;
 font-size: 14px;
 line-height: 1.71px;
 letter-spacing: 0.03em;
@@ -130,13 +129,13 @@ letter-spacing: 0.03em;
 }
 
 .team-text{
-font-weight: 400;
 font-size: 16px;
 line-height: 1.18px;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--secondary-color)
 }
+
 /* Buttons */
 .button {
 color: #FFFFFF;
@@ -147,6 +146,8 @@ font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.06em;
 
+cursor:pointer;
+
 }
 .filter{
 color: var(--main-color);
@@ -155,6 +156,7 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
 letter-spacing: 0.03em;
+cursor:pointer;
 }
 .button:hover, .button:focus {
     color: #FFFFFF ;
@@ -170,7 +172,6 @@ letter-spacing: 0.06em;
 
 }
 .projects-text {
-font-weight: 400;
 font-size: 16px;
 line-height: 1.8;
 letter-spacing: 0.03em;
@@ -183,7 +184,6 @@ footer {
 }
 .footer-contacts{
 font-style: normal;
-font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
